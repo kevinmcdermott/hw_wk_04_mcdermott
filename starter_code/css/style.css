@@ -1,0 +1,219 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     height: 100%
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background-color: #033048;
+  height: 60px;
+  vertical-align: center;
+
+}
+
+h1.head {
+  float: left;
+  color: white;
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  font-size: 36px;
+}
+
+ul.head {
+  float: right;
+  vertical-align: center;
+}
+
+.nav {
+  float: left;
+  padding: 10px;
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.CTA {
+  background-color: #f9e42e;
+  height: 100px; 
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  height: 200px;
+  background-color: #121212;
+  color: white;
+}
+
+.center {
+  background-color: #d8dada;
+  padding: 60px;
+}
+
+.main {
+  float: left;
+  width: 700px;
+}
+
+
+.right-rail {
+  float: right;
+  width: 240px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.image-1 {
+background-image: url("../images/blog_photo1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 200px;
+}
+
+.image-2 {
+background-image: url("../images/blog_photo2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 200px;
+}
+
+.ad-unit {
+background-image: url("../images/ad-unit.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 200px;
+padding: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family:  Arial, 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.text {
+  border-bottom: solid 1px;
+}
+
+.read {
+  text-align: right;
+}
+
+.rail {
+  font-family: times, 'Open Sans', serif;
+  font-size: 24px;
+}
+
+.rail-box {
+  padding: 50px;
+}
+
+.yellow {
+  background-color: #033048;
+  color: white;
+  text-align: center;
+  font-family: Arial, 'Open Sans', sans-serif;
+  border: 1px solid;
+  box-shadow: 3px black; 
+  font-size: 18px;
+  padding: 10px;
+}
+
+.div-1 {
+  color: #f9e42e;
+  font-family: Arial, 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.div-2 {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+.div-3 {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+
+.learn {
+  font-weight: 600;
+}

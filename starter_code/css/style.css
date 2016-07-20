@@ -5,24 +5,35 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+/*
 
+Great job! Here are a few comments:
+
+- Good job with your CSS indentation! Very consistent throughout. Make sure that you are nesting your HTML elements so that it's more readable and representative of where each element lives. I made some adjustments to help make it more clear.
+- Interesting choice to use the images as a background instead of the <img src> tag in your HTML! I think it's good practice make sure you can do both, but typically if you have an image like the ones you're using, you'll just want to use an image tag since it's more representative of the content
+- Try using pseudo classes in the future. If you want to style your links, you can select the a elements and style it (ie. adding text-decoration: none to get rid of the underline) and you can use a:hover to change the styling on hover
+- Make sure you're using semantic naming conventions. div-1 and div-2 doesn't explain what the style is doing, and it would no longer make sense if you changed the order of your divs but wanted to keep the styles the same. Instead, use something like "footer-title" and "social-media"
+- Don't use something like "yellow" as your class; you're using a button with the class of yellow, but it's not even yellow! Instead, use something like "sign-up-buttton" as your class name so if you change the colors it will still be relevant
+- You have both a normalize.css and reset.css file but you're only using reset.css; make sure you delete the unused file!
+
+*/
 /******************************************
 /* SETUP
 /*******************************************/
 
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -39,19 +50,17 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     height: 100%
-     font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  height: 100%
+  font-family: Helvetica, Arial, sans-serif;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -92,7 +101,7 @@ ul.head {
 
 .CTA {
   background-color: #f9e42e;
-  height: 100px; 
+  height: 100px;
   text-align: center;
   padding: 20px;
 }
@@ -112,7 +121,6 @@ footer {
   float: left;
   width: 700px;
 }
-
 
 .right-rail {
   float: right;
@@ -188,7 +196,7 @@ p {
   text-align: center;
   font-family: Arial, 'Open Sans', sans-serif;
   border: 1px solid;
-  box-shadow: 3px black; 
+  box-shadow: 3px black;
   font-size: 18px;
   padding: 10px;
 }
